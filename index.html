@@ -16,23 +16,23 @@ a[href*="link-group.eu"] {
 }
 
 
-#second-div p:nth-child(odd) {
+#second-div > p:nth-child(odd) {
   color: red;
 }
 
-#second-div p:nth-child(even) {
+#second-div > p:nth-child(even) {
   color: blue;
 }
 
 
-#first-div p:nth-of-type(2)::after,
-#first-div p:nth-of-type(3)::after {
+#first-div > p:nth-of-type(2)::after,
+#first-div > p:nth-of-type(3)::after {
   content: " - NEW";
   color: yellow;
 }
 
 
-#third-div p:nth-of-type(3):hover {
+#third-div > p:nth-of-type(3):hover {
   font-style: italic;
 }
 
